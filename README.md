@@ -89,9 +89,10 @@ Once logged in, admins can:
 ![Scan to launch](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Dental%20Care%20QR.png)
 
 [Click to launch](https://dental-center-management-using-reac.vercel.app/)
-## 🔗 Links
 
-[![linkedin](https://www.linkedin.com/in/rahul-rouchan-gogoi-04072001r)## 📸 Screenshot
+
+
+## 📸 Screenshot
 
 * Home Page
 - **Top Section** ![Home Top view](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Top%20Image.png)
