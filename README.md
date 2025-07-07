@@ -85,4 +85,4 @@ Once logged in, admins can:
 ## 📸 Screenshot
 
 * Home Page *
-**Top View**![Home Page Screenshot](./path-to-your-image/home-page.png)
+**Top View**![Home Page Screenshot](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Bottom%20Image.png)
