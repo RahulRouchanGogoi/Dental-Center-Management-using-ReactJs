@@ -28,10 +28,10 @@ const PatientInfo = () => {
     <div className="patient-info-outer">
       <div className="patient-img-outer">
         <div className="patient-img">
-          <img
+          <img className="patient-img-profile"
             src={ProfilePic}
             alt="profile"
-            style={{ width: "250px", height: "auto" }}
+            
           />
         </div>
       </div>

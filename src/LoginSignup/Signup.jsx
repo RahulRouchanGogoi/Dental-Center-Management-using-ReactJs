@@ -3,6 +3,7 @@ import SignupImage from "../images/SignUp.png";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTooth } from "@fortawesome/free-solid-svg-icons";
+import Footer from "../Components/Footer";
 
 const Signup = () => {
   const userDetail = {
@@ -70,7 +71,7 @@ const Signup = () => {
             />
           </div>
 
-          <p>
+          <p className="have-an-account">
             Already have an Account? <a href="/login">Log in</a>
           </p>
 

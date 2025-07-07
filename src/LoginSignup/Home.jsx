@@ -26,10 +26,10 @@ const Home = () => {
           </div>
           </div>
           <div>
-            <img
+            <img className="home-main-img"
               src={Homeimage}
               alt="image"
-              style={{ width: "410px", height: "auto" }}
+              
             />
           </div>
         </div>

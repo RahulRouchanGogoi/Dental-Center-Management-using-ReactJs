@@ -63,6 +63,10 @@ body,
   background-color: white;
 }
 
+.nav-details ul li:hover {
+  color: #0b7dda;
+}
+
 .nav-button {
   display: flex;
   align-items: center;
@@ -257,6 +261,11 @@ form a:hover {
 
 /*Home page*/
 
+.home-main-img {
+  width: 410px;
+  height: auto;
+}
+
 .home-photo-with-message {
   margin-top: 45px;
   display: flex;
@@ -298,8 +307,7 @@ form a:hover {
   align-items: center;
 }
 
-.home-photo-msg-inner2 button
-{
+.home-photo-msg-inner2 button {
   width: 200px;
   height: 30px;
   border-radius: 10px;
@@ -309,13 +317,10 @@ form a:hover {
   cursor: pointer;
 }
 
-.home-photo-msg-inner2 button:hover
-{
+.home-photo-msg-inner2 button:hover {
   width: 205px;
   height: 33px;
-  
 }
-
 
 .home-screen-msg {
   margin-top: 20px;
@@ -347,7 +352,6 @@ form a:hover {
 .profile-pic {
   border-radius: 30px;
 }
-
 
 .drop-down-menu {
   border-radius: 5px;
@@ -479,6 +483,11 @@ form a:hover {
 
 /*Banner Component*/
 
+.home-banner-img {
+  width: 410px;
+  height: auto;
+}
+
 .banner-inner {
   margin-left: 83px;
   margin-right: 83px;
@@ -588,6 +597,11 @@ ul li {
 
 /*Patient Info Component*/
 
+.patient-img-profile {
+  width: 250px;
+  height: auto;
+}
+
 .patient-img-outer {
   display: flex;
   justify-content: center;
@@ -676,7 +690,7 @@ ul li {
   justify-content: center;
   align-items: center;
   gap: 5px;
-    flex-wrap: wrap;    
+  flex-wrap: wrap;
 }
 
 .appointment-card p {
@@ -820,7 +834,6 @@ ul li {
   flex-direction: row;
 }
 
-
 /*Admin Dashboard Component*/
 
 .admin-dashboard-main-outer {
@@ -924,12 +937,11 @@ ul li {
 .kpi-card1,
 .kpi-card2,
 .kpi-card3,
- h2 {
+h2 {
   color: #254d70;
 }
 
-.kpi-card3 h2
-{
+.kpi-card3 h2 {
   margin: 0;
   padding: 0;
 }
@@ -1139,6 +1151,10 @@ ul li {
 }
 
 .admin-dashboard-other-components ul li button:hover {
+  color: #0b7dda;
+}
+
+.admin-dashboard-other-components ul li button:hover {
   height: 35px;
   width: 223px;
 }
@@ -1155,7 +1171,7 @@ ul li {
 .admin-calender-info {
   width: 89%;
   max-width: 900px;
-  height: auto; 
+  height: auto;
   background-color: #a3bccc;
   margin-top: 40px;
   padding: 20px;
@@ -1291,9 +1307,8 @@ ul li {
   margin-bottom: 40px;
 }
 
-.admin-patient-table tr
-{
-color: #254d70;
+.admin-patient-table tr {
+  color: #254d70;
 }
 
 .admin-patient-info-button button {
@@ -1416,13 +1431,12 @@ color: #254d70;
   margin-top: 40px;
   max-width: 89%;
   margin: 0;
-
 }
 
 .admin-appointment-table td {
-  max-width: 150px;        
-  word-wrap: break-word;    
-  white-space: normal;      
+  max-width: 150px;
+  word-wrap: break-word;
+  white-space: normal;
   overflow-wrap: break-word;
 }
 
@@ -1457,7 +1471,6 @@ color: #254d70;
   height: 30px;
 }
 
-
 /*Appointment History*/
 
 .admin-appointment-history-outer {
@@ -1465,10 +1478,8 @@ color: #254d70;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color:#fffdf6;
+  background-color: #fffdf6;
 }
-
-
 
 .admin-appointment-history table {
   width: 89%;
@@ -1492,7 +1503,6 @@ color: #254d70;
   color: #254d70;
 }
 
-
 .admin-appointment-history-inner {
   display: flex;
   align-items: center;
@@ -1500,8 +1510,7 @@ color: #254d70;
   flex-direction: column;
 }
 
-.admin-appointment-backto-dashboard-button
-{
+.admin-appointment-backto-dashboard-button {
   width: 350px;
   height: 30px;
   background-color: #254d70;
@@ -1512,13 +1521,11 @@ color: #254d70;
   cursor: pointer;
 }
 
-.admin-appointment-backto-dashboard-button:hover
-{
+.admin-appointment-backto-dashboard-button:hover {
   width: 355px;
   height: 33px;
- background-color: #0b7dda;
+  background-color: #0b7dda;
 }
-
 
 /*patient appointment history*/
 
@@ -1526,19 +1533,17 @@ color: #254d70;
   border: 1px solid #d1d1d1;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 950px;
-  padding: 10px;                
+  padding: 10px;
   display: flex;
-  flex-direction: column;       
-  align-items: flex-start;     
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   border-radius: 10px;
   margin-top: 10px;
-  word-wrap: break-word;        
-  overflow-wrap: break-word;    
-  background-color: #fdfdfd;   
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  background-color: #fdfdfd;
 }
-
-
 
 .patient-appointment-historycard p {
   margin: 5px 0;
@@ -1551,19 +1556,16 @@ color: #254d70;
   padding: 0;
 }
 
-.patient-appoimtment-history-inner
-{
+.patient-appoimtment-history-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin-top: 20px;
- padding-top: 10px;
+  padding-top: 10px;
   max-height: 500px;
-  overflow-y: auto; 
- 
+  overflow-y: auto;
 }
-
 
 .outer-patient-appointment-history {
   display: flex;
@@ -1582,7 +1584,6 @@ color: #254d70;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
 }
 
 .patient-appoimtment-history-inner {
@@ -1610,8 +1611,1686 @@ color: #254d70;
 }
 
 .patient-appointment-history button:hover {
-  
   width: 405px;
   height: 43px;
   background-color: #0b7dda;
+}
+
+/*...........................................For mobile.................................................*/
+/*...........................................For mobile.................................................*/
+/*...........................................For mobile.................................................*/
+
+@media (max-width: 768px) {
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*Navbar*/
+  .nav-outer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fffdf6;
+    justify-content: center;
+  }
+
+  .nav-main {
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    margin-top: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .nav-logo {
+    display: flex;
+    height: 43px;
+    flex-direction: row;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    gap: 6px;
+    font-weight: 750;
+    color: #254d70;
+    font-size: 18px;
+  }
+
+  .nav-logo p {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+
+  .nav-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 43px;
+    background-color: white;
+  }
+
+  .nav-details ul li {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-details ul li:hover {
+    color: #0b7dda;
+  }
+
+  .nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 43px;
+    width: 20%;
+    background-color: white;
+  }
+
+  .nav-button button {
+    margin-left: 10px;
+    background-color: #254d70;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    border-style: none;
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 0.53rem;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    color: #254d70;
+    font-weight: 700;
+  }
+
+  .nav-list li {
+    padding: 5px;
+  }
+
+  .nav-list a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /*Signup Form*/
+
+  form {
+    background-color: white;
+    width: 398px;
+    text-align: center;
+  }
+
+  form button {
+    background-color: #254d70;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.65rem;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  form button:hover {
+    background-color: #0b7dda;
+    width: 138px;
+    height: 36px;
+  }
+
+  .SignUpInner1 {
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 50%;
+    margin-top: -100px;
+    width: 89%;
+    border-radius: 10px;
+    border: 2px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .SignUpInner2 {
+    display: none;
+  }
+
+  .SignUp-Login-Outer {
+    background-color: #fffdf6;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    font-weight: 780;
+    margin-top: 40px;
+    color: #254d70;
+  }
+
+  .account {
+    margin-top: 50px;
+  }
+
+  .have-an-account {
+    font-size: 0.625rem;
+  }
+
+  .account input {
+    display: block;
+    width: 88%;
+    margin-left: 10px;
+    font-size: 17px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(119, 119, 119);
+  }
+
+  form a {
+    color: #254d70;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  form a:hover {
+    color: #005999;
+    text-decoration: underline;
+  }
+
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin: 0;
+    margin-top: 29px;
+  }
+
+  /*Login Form*/
+
+  #LogIn-DentalCareHeading {
+    font-size: 30px;
+    font-weight: 780;
+    margin-top: -50px;
+    margin-bottom: -10px;
+    color: #254d70;
+    background-color: white;
+  }
+
+  .Login-Outer {
+    background-color: white;
+    height: 80%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Login-Inner2 {
+    height: 80%;
+    width: 35%;
+    display: none;
+    align-items: center;
+  }
+
+  .Login-Inner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 50%;
+    border: 2px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .Login-Inner1 form {
+    width: 350px;
+  }
+
+  #error-msg {
+    padding: 0;
+    margin: 0;
+    color: red;
+  }
+
+  .heading p {
+    margin: 0;
+    margin-top: 3px;
+  }
+
+  /*Home page*/
+
+  .home-photo-with-message {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #254d70;
+    width: 89%;
+    border-radius: 5px;
+    justify-content: space-evenly;
+  }
+
+  .home-photo-with-message-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #fffdf6;
+  }
+
+  .home-photo-msg {
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 800;
+    line-height: 0.5;
+  }
+
+  .home-main-img {
+    width: 150px;
+    height: auto;
+  }
+
+  .home-photo-msg-inner {
+    color: #254d70;
+    font-size: 0.5rem;
+    font-weight: 500;
+    line-height: 1px;
+    background-color: white;
+    border-radius: 2px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-photo-msg-inner p {
+    font-size: 5px;
+  }
+
+  .home-photo-msg-inner2 button {
+    margin-top: 10px;
+    width: 70px;
+    height: 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 8px;
+    border-style: none;
+    color: #254d70;
+    cursor: pointer;
+  }
+
+  .home-screen-msg {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1px;
+    text-align: center;
+  }
+
+  .home-screen-msg-inner1 {
+    color: #254d70;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .home-screen-msg-inner2 {
+    color: #254d70;
+    font-size: 0.625rem;
+    font-weight: 500;
+    margin-top: -8px;
+  }
+
+  .home-screen-msg-inner2 p {
+    margin: 0;
+  }
+
+  .profile-pic {
+    border-radius: 30px;
+  }
+
+  .drop-down-menu {
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    margin-top: 3px;
+    padding: 0.5rem;
+    font-size: 0.65rem;
+    color: #254d70;
+    font-weight: 850;
+    gap: 1px;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 110px;
+    background-color: white;
+    z-index: 100;
+    flex-direction: column;
+  }
+
+  .nav-dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .nav-dropdown:hover .drop-down-menu {
+    display: flex;
+  }
+
+  .drop-down-menu-items {
+    color: #254d70;
+    cursor: pointer;
+    padding: 4px 8px;
+    transition: color 0.2s ease;
+  }
+
+  .drop-down-menu-items:hover {
+    color: #007bff;
+  }
+
+  /*Top Doctors*/
+
+  .doctors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .doctors-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .doctor-card {
+    width: 16%;
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-bottom: 5px;
+  }
+
+  .doctor-card img {
+    width: 97px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #a3bccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .doctors-h1 {
+    color: #254d70;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .doctors-p {
+    margin: 0;
+    color: #254d70;
+    font-size: 0.625rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  .doctors-outer {
+    margin-top: 35px;
+  }
+
+  #doctor-available {
+    font-size: 10px;
+    color: #2ecc71;
+    margin: 0;
+    padding-bottom: 5px;
+    font-weight: 700;
+  }
+
+  .doctor-card p {
+    font-size: 10px;
+    color: #254d70;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  #doctor-available-dot {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #2ecc71;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 6px;
+  }
+
+  .doctor-card-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*Banner Component*/
+
+  .home-banner-img {
+    width: 150px;
+    height: auto;
+  }
+
+  .banner-inner {
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #254d70;
+    border-radius: 10px;
+    justify-content: space-evenly;
+  }
+
+  #banner-p {
+    color: white;
+    font-size: 0.5rem;
+    font-weight: 800;
+  }
+
+  #banner-button {
+    border-radius: 20px;
+    height: 15px;
+    width: 60px;
+    cursor: pointer;
+    border-style: none;
+    font-size: 5px;
+  }
+
+  #banner-button:hover {
+    height: 15px;
+    width: 60px;
+    cursor: pointer;
+  }
+
+  /*Footer Component*/
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    background-color: #f4f8fc;
+    color: #254d70;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-top: 40px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    border-radius: 12px 12px 0 0;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .footer-logo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .footer-description {
+    margin-top: -6px;
+    font-size: 0.5rem;
+    line-height: 1.6;
+    color: #254d70;
+  }
+
+  .footer-contact {
+    width: 30%;
+    text-align: center;
+  }
+
+  .footer-links {
+    text-align: center;
+    width: 30%;
+  }
+
+  .footer-heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+    font-size: 0.5rem;
+  }
+
+  .footer-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /*Patient Info Component*/
+
+  .patient-img-profile {
+    width: 100px;
+    height: auto;
+  }
+  .patient-img-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100px;
+    background-color: #a3bccc;
+    flex-direction: row;
+    margin-left: 35px;
+    border-radius: 10px;
+  }
+
+  .patient-info-outer {
+    margin-right: 70px;
+    background-color: white;
+    margin-top: 40px;
+    height: 200px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .patient-original-info h1 {
+    margin: 0;
+    font-size: 8px;
+    margin-left: 10px;
+    color: #254d70;
+  }
+
+  .patient-original-info p {
+    margin: 0;
+    font-size: 7px;
+    margin-left: 10px;
+    color: #254d70;
+    font-weight: 500;
+  }
+
+  /*Patient upcoming appointment component*/
+
+  .Upcoming-appointment {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 400px;
+    background-color: #a3bccc;
+    margin-left: 70px;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+
+  .Upcoming-appointment h1 {
+    color: white;
+    margin: 0;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .Upcoming-appointment-details {
+    display: flex;
+    justify-content: flex-start;
+    width: 320px;
+    height: 270px;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .appointment-card {
+    display: flex;
+    max-width: 285px;
+    flex-direction: row;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 40px;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .appointment-card p {
+    margin: 0;
+    font-size: 9px;
+    color: #254d70;
+    overflow-y: auto;
+  }
+
+  .Upcoming-appointment-details p {
+    color: #254d70;
+    font-weight: 500;
+  }
+
+  /*Patient Info form Component*/
+
+  .patient-info-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0;
+    padding-left: 40px;
+    padding-top: 40px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .patient-info-section {
+    width: 360px;
+    background-color: #254d70;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    height: fit-content;
+    margin-right: 40px;
+  }
+
+  .patient-info-section p {
+    font-size: 10px;
+  }
+
+  .appointment-form label,
+  .appointment-form p,
+  .appointment-form h2 {
+    font-size: 13px;
+  }
+  .gender-options label {
+    font-size: 12px;
+  }
+  #patient-info-form-firstMessage {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .view-appointments-button {
+    margin-top: 20px;
+    padding: 10px 18px;
+    background-color: white;
+    color: #254d70;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  .appointment-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px !important;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    margin-right: 35px;
+  }
+
+  .appointment-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #254d70;
+    width: 300px;
+  }
+
+  .appointment-form p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    color: #254d70;
+    width: 300px;
+  }
+
+  .appointment-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #254d70;
+    width: 200px;
+  }
+
+  .appointment-form div {
+    width: 200px;
+  }
+
+  .appointment-form input[type="text"],
+  .appointment-form input[type="number"],
+  .appointment-form input[type="date"],
+  .appointment-form input[type="time"] {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 30px;
+  }
+
+  .appointment-form input[type="radio"] {
+    margin-right: 6px;
+  }
+
+  .appointment-form button {
+    margin-top: 20px;
+    padding: 0;
+    margin: 0;
+    background-color: #254d70;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+
+  .gender-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    width: 100%;
+  }
+
+  .gender-options label {
+    font-weight: 500;
+    color: #254d70;
+  }
+
+  /* Patient Page */
+
+  .patient-appointment-fulldetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*Admin Dashboard Component*/
+
+  .admin-dashboard-main-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffdf6;
+  }
+
+  .admin-dashboard-main {
+    background-color: #fffdf6;
+    width: 89.5%;
+    height: 1000px;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .admin-dashboard-main-inner1 {
+    background-color: #fffdf6;
+    width: 300px;
+    height: 200px;
+    display: none;
+    border-radius: 10px;
+  }
+
+  .admin-dashboard-welcome-Admin-msg {
+    width: 261px;
+    height: 150px;
+    display: none;
+    background-color: #254d70;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .admin-dashboard-welcome-Admin-msg h2 {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+  }
+
+  .admin-dashboard-other-components {
+    background-color: #254d70;
+    width: 261px;
+    margin-top: 20px;
+    display:none;
+    justify-content: flex-start;
+    height: 830px;
+    border-radius: 10px;
+
+  }
+
+  .admin-dashboard-other-components ul li {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 30px;
+    display: none;
+  }
+
+  .admin-dashboard-main-inner2 {
+    background-color: #fffdf6;
+    width: 850px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .admin-dashboard-main-inner2-div-inner {
+    background-color: #fffdf6;
+    width: 350px;
+    height: 1000px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .admin-dashboard-main-inner2-div-inner-kpi-cards {
+    margin-right: 33px;
+    background-color: #a3bccc;
+    width: 350px;
+    height: 320px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+
+    justify-items: center;
+    align-items: center;
+
+    padding: 0;
+  }
+
+  .kpi-card1,
+  .kpi-card2,
+  .kpi-card3,
+  h2 {
+    font-size: 10px;
+    color: #254d70;
+  }
+
+  .kpi-card3 h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .kpi-card1 {
+    background-color: white;
+    width:135px;
+    height: 130px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kpi-card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 135px;
+    height: 130px;
+    border-radius: 10px;
+  }
+
+  .kpi-card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 135px;
+    height: 130px;
+    border-radius: 10px;
+  }
+
+  .kpi-card4 {
+    width: 135px;
+    height: 130px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-size: 10px;
+  }
+
+  .react-calendar {
+    width: 100% !important;
+    max-width: 100%;
+    font-size: 9px;
+    border: none !important;
+    transform: scale(0.66);
+    transform-origin: top center;
+    margin-bottom: 1px;
+    margin-top: -12px;
+  }
+
+  .highlight-date {
+    background: #3f51b5 !important;
+    color: white !important;
+    border-radius: 50%;
+  }
+
+  .react-calendar__tile:enabled:hover {
+    background-color: #e0e0e0;
+    border-radius: 6px;
+  }
+
+  .admin-dashboard-main-inner2-div-inner-patient-details {
+    margin-top: 10px;
+    background-color: #fffdf6;
+    width: 350px;
+    height: 680px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .admin-dashboard-main-inner2-div-inner-patient-details-upcoming-appointments {
+    margin-top: 20px;
+    background-color: #a3bccc;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 33px;
+  }
+
+  .admin-dashboard-main-inner2-div-inner-patient-details-upcoming-appointments
+    h2 {
+    color: #254d70;
+    font-size: 25px;
+  }
+
+  .admin-dashboard-appointment-list {
+    background-color: white;
+    width: 320px;
+    height: 280px;
+    border-radius: 10px;
+    overflow-y: auto;
+  }
+
+  .admin-dashboard-main-inner2-div-inner-patient-details-top-patients {
+    background-color: #a3bccc;
+    width: 350px;
+    height: 250px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 33px;
+  }
+  .admin-dashboard-main-inner2-div-inner-patient-details-top-patients h2 {
+    margin-top: 40px;
+    color: #254d70;
+    font-size: 25px;
+  }
+
+
+  .admin-dasboard-top-10-patients {
+    background-color: white;
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    overflow-y: auto;
+
+  }
+
+
+  .top-patient-card {
+    background-color: white;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-height: 50px;
+    margin-top: 5px;
+  }
+
+  .top-patient-card p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 10px;
+    color: #254d70;
+  }
+
+  .admin-appointment-card {
+    width: 280px;
+    min-height: 75px;
+    border-radius: 10px;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 8px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+    padding-left: 5px;
+    gap: 5px;
+  }
+
+  .admin-appointment-card p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 10px;
+    color: #254d70;
+  }
+
+  .admin-dashboard-appointment-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .admin-dashboard-other-components ul li button {
+    height: 30px;
+    width: 218px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    font-weight: 700;
+    color: #254d70;
+    cursor: pointer;
+  }
+
+  .admin-dashboard-other-components ul li button:hover {
+    color: #0b7dda;
+  }
+
+  .admin-dashboard-other-components ul li button:hover {
+    height: 35px;
+    width: 223px;
+  }
+
+  /* Admin-Calender-Info */
+
+  .admin-calender-info-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .admin-calender-info {
+    width: 89%;
+    max-width: 900px;
+    height: auto;
+    background-color: #a3bccc;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+
+  .admin-calender-info .react-calendar {
+    margin-top: 35px;
+    transform: scale(0.9);
+    transform-origin: top center;
+    width: 100% !important;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  .admin-calender-info .react-calendar__tile {
+    height: 65px !important;
+    padding: 10px 0;
+  }
+
+  .highlight-date {
+    background-color: #254d70 !important;
+    border-radius: 50%;
+    color: black !important;
+  }
+
+  .admin-calender-info-button button {
+    margin-top: 20px;
+    width: 500px;
+    height: 40px;
+    background-color: #254d70;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .admin-calender-info-button button:hover {
+    width: 505px;
+    height: 45px;
+    background-color: #0b7dda;
+  }
+
+  .admin-appointment-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: #fffdf6;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+  }
+
+  .admin-appointment-details h3 {
+    color: #254d70;
+  }
+
+  /*Admin-Patient*/
+
+  .admin-patient-management-container-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fffdf6;
+  }
+
+  .admin-patient-management-container {
+    background-color: #a3bccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 89%;
+    border-radius: 10px;
+  }
+
+   .admin-patient-management-container h2
+   {
+     font-size: 1.5rem;
+   }
+
+  .admin-patient-form {
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .admin-patient-form input {
+    margin-top: 20px;
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .admin-patient-form button {
+    width: 290px;
+    border: none;
+    border-radius: 10px;
+    background-color: #254d70;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 35px;
+  }
+
+
+  .admin-patient-table {
+    background-color: white;
+    width: 300px;
+    border-style: none;
+    margin-bottom: 40px;
+  }
+
+  .admin-patient-table tr {
+    color: #254d70;
+    width: 10px;
+  }
+
+ 
+
+  .admin-patient-info-button button {
+    width: 290px;
+    border: none;
+    border-radius: 10px;
+    background-color: #254d70;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 35px;
+    color: white;
+  }
+
+  /*About*/
+
+  .page-container-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fffdf6;
+  }
+
+  .page-container {
+    margin-top: 40px;
+    background-color: white;
+    width: 75%;
+    min-height: 53vh;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: #254d70;
+    font-weight: 500;
+  }
+
+  .page-container p {
+    font-size: 0.625rem;
+  }
+
+  .page-container h2 {
+    font-size: 1.5rem;
+  }
+
+  /*contact*/
+
+  .contact-container-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fffdf6;
+  }
+
+  .contact-container {
+    margin-top: 40px;
+    background-color: white;
+    width: 75%;
+    min-height: 53vh;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: #254d70;
+    font-weight: 500;
+  }
+
+  .contact-container p {
+    font-size: 0.625rem;
+  }
+  .contact-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-container h3 {
+    font-size: 0.8rem;
+  }
+
+  /*policies*/
+
+  .policies-container-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fffdf6;
+  }
+
+  .policies-container {
+    margin-top: 40px;
+    background-color: white;
+    width: 75%;
+    min-height: 53vh;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: #254d70;
+    font-weight: 500;
+  }
+
+  .policies-container p {
+    font-size: 0.625rem;
+  }
+
+  .policies-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .policies-container h3 {
+    font-size: 0.8rem;
+  }
+
+  /*Admin appointment Management*/
+
+  .admin-appointment-management-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdf6;
+    flex-direction: column;
+  }
+
+  .admin-appointment-management {
+    margin-top: 40px;
+    max-width: 89%;
+    margin: 0;
+  }
+
+  .admin-appointment-table td {
+    max-width: 150px;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  .admin-appointment-details-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    border-radius: 10px;
+  }
+
+  .admin-appointment-details-form h3 {
+    color: white;
+  }
+
+  .admin-appointment-details-form input,
+  .admin-appointment-details-form select {
+    padding: 8px;
+    font-size: 14px;
+    width: 300px;
+  }
+
+  .admin-appointment-details-form button {
+    background-color: #2f5d74;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+  }
+
+  /*Appointment History*/
+
+  .admin-appointment-history-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fffdf6;
+  }
+
+  .admin-appointment-history table {
+    width: 89%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    table-layout: fixed; /* Fix column widths */
+  }
+
+  .admin-appointment-history table th,
+  .admin-appointment-history table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: top;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 150px;
+    font-size: 14px;
+    color: #254d70;
+  }
+
+  .admin-appointment-history-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .admin-appointment-backto-dashboard-button {
+    width: 350px;
+    height: 30px;
+    background-color: #254d70;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    border-style: none;
+    cursor: pointer;
+  }
+
+  .admin-appointment-backto-dashboard-button:hover {
+    width: 355px;
+    height: 33px;
+    background-color: #0b7dda;
+  }
+
+  /*patient appointment history*/
+
+  .patient-appointment-historycard {
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 10px;
+    margin-top: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: #fdfdfd;
+  }
+
+  .patient-appointment-historycard p {
+    margin: 5px 0;
+    color: #254d70;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    word-break: break-word;
+    font-size: 10px;
+    padding: 0;
+  }
+
+  .patient-appoimtment-history-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    padding-top: 10px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+  .outer-patient-appointment-history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffdf6;
+  }
+
+  .patient-appointment-history {
+    margin-top: 40px;
+    width: 89%;
+    background-color: #a3bccc;
+    height: 700px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .patient-appoimtment-history-inner {
+    width: 320px;
+    background-color: white;
+    height: 700px;
+    border-radius: 19px;
+  }
+
+  .patient-appointment-history h2 {
+    color: #254d70;
+  }
+
+  .patient-appointment-history button {
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border-style: none;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #254d70;
+    cursor: pointer;
+  }
 }

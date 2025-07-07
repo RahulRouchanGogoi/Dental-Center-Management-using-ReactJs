@@ -7,7 +7,7 @@ const Footer = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div style={{width:"100vw",backgroundColor:"#FFFDF6",display:"flex",alignItems:"center",justifyContent:"center"}}>
       <div className="footer">
         <div className="footer-logo">
           <div className="footer-brand">

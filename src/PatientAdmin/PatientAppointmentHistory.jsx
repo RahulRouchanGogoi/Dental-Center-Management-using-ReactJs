@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Footer from "../Components/Footer";
 
 const PatientAppointmentHistory = () => {
   const navigate = useNavigate();
@@ -10,7 +11,6 @@ const PatientAppointmentHistory = () => {
     const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
     const userEmail = loggedInUser?.email;
 
-    // ✅ Load both completed and rejected appointments
     const completedData = JSON.parse(localStorage.getItem("completedAppointments") || "[]");
     const rejectedData = JSON.parse(localStorage.getItem("rejectedAppointments") || "[]");
 
@@ -103,6 +103,7 @@ const PatientAppointmentHistory = () => {
           </button>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

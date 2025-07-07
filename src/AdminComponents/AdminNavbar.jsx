@@ -21,10 +21,18 @@ const AdminNavbar = () => {
 
         <div className="nav-details">
           <ul className="nav-list">
-            <NavLink to="/" className="footer-link"><li>Home</li></NavLink>
-            <NavLink to="/about" className="footer-link"><li>About</li></NavLink>
-            <NavLink to="/contact" className="footer-link"><li>Contact</li></NavLink>
-            <NavLink to="/policies" className="footer-link"><li>Policies</li></NavLink>
+            <NavLink to="/" className="footer-link">
+              <li>Home</li>
+            </NavLink>
+            <NavLink to="/about" className="footer-link">
+              <li>About</li>
+            </NavLink>
+            <NavLink to="/contact" className="footer-link">
+              <li>Contact</li>
+            </NavLink>
+            <NavLink to="/policies" className="footer-link">
+              <li>Policies</li>
+            </NavLink>
           </ul>
         </div>
 
@@ -51,6 +59,35 @@ const AdminNavbar = () => {
                   >
                     Dashboard
                   </p>
+
+                  <p
+                    onClick={() => navigate("/admin-patient")}
+                    className="drop-down-menu-items"
+                  >
+                    Patient Management
+                  </p>
+
+                  <p
+                    onClick={() => navigate("/admin-appointment")}
+                    className="drop-down-menu-items"
+                  >
+                    Appointment Management
+                  </p>
+
+                  <p
+                    onClick={() => navigate("/admin-appointment-history")}
+                    className="drop-down-menu-items"
+                  >
+                    Appointment History
+                  </p>
+
+                  <p
+                    onClick={() => navigate("/admin-calender")}
+                    className="drop-down-menu-items"
+                  >
+                    Calender
+                  </p>
+
                   <p
                     onClick={() => {
                       localStorage.removeItem("loggedInUser");

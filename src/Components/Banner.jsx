@@ -14,10 +14,9 @@ const Banner = () => {
           </button>
         </div>
         <div>
-          <img
+          <img className="home-banner-img"
             src={BannerImg}
             alt="image"
-            style={{ width: "410px", height: "auto" }}
           />
         </div>
       </div>
