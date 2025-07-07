@@ -92,7 +92,7 @@ Once logged in, admins can:
 
 
 
-## 📸 Screenshot
+## 📸 Screenshots
 
 * Home Page
 - **Top Section** ![Home Top view](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Top%20Image.png)
