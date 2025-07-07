@@ -85,4 +85,8 @@ Once logged in, admins can:
 ## 📸 Screenshot
 
 * Home Page *
-**Top View**![Home Page Screenshot](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Bottom%20Image.png)
+- **Top Section** ![Laptop Top](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Top%20Image.png)
+
+- **Mid Section** ![Laptop Top](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Mid%20Image.png)
+
+- **Mid Section** ![Laptop Top](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Bottom%20Image.png)
