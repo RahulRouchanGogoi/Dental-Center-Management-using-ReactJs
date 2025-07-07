@@ -82,11 +82,58 @@ Once logged in, admins can:
 ### Deployment:
 - 🌐 **Vercel** – Used for hosting the frontend application
 
-## 📸 Screenshot
 
-* Home Page *
-- **Top Section** ![Laptop Top](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Top%20Image.png)
+## Explore the Website
 
-- **Mid Section** ![Laptop Top](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Mid%20Image.png)
 
-- **Mid Section** ![Laptop Top](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Bottom%20Image.png)
+![Scan to launch](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Dental%20Care%20QR.png)
+
+[Click to launch](https://dental-center-management-using-reac.vercel.app/)
+## 🔗 Links
+
+[![linkedin](https://www.linkedin.com/in/rahul-rouchan-gogoi-04072001r)## 📸 Screenshot
+
+* Home Page
+- **Top Section** ![Home Top view](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Top%20Image.png)
+
+- **Mid Section** ![Home Mid View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Mid%20Image.png)
+
+- **Bottom Section** ![Home Bottom View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Bottom%20Image.png)
+
+* Sign-Up Page
+- **SignUp** ![SignUp Page](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Sign-Up.png)
+
+* Log-In Page
+- **LogIn** ![LogIn Page](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Log-In.png)
+
+* Patient Dashboard
+- **Patient Dashboard Top Section** ![Top View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Patient-home-screen-top-img.png)
+
+- **Patient Dashboard Mid Section** ![Mid View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Patient-home-screen-mid-img.png)
+
+- **Patient Dashboard Bottom Section** ![Bottom View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Patient-home-screen-bottom-img.png)
+
+- **Patient Dashboard Upcoming Appointments** ![Upcoming appointments view](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Patient-home-screen-appointmet-img.png)
+
+- **Admin Dashboard Top View** ![Admin Dashboard Top View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Admin%20Dashboard%20Top%20Image.png)
+
+- **Admin Dashboard Mid View** ![Admin Dashboard Mid View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Admin%20Dashboard%20Mid%20Image.png)
+
+- **Admin Dashboard Calender View** ![Admin Dashboard Calender View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Admin%20Calender%20view.png)
+
+- **Admin Dashboard Calender View with Upcoming appointments details** ![Admin Dashboard Calender with Upcoming appointments details](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Admin%20Calender%20view%20with%20details.png)
+
+- **Admin Dashboard Patient Management Top View** ![Admin Dashboard Patient Management Top View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Admin%20Patient%20Management.png)
+
+- **Admin Dashboard Patient Management Mid View** ![Admin Dashboard Patient Management Mid View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Admin%20Patient%20Managemnet%20Mid%20view.png)
+
+- **Admin Dashboard Appointmet Management** ![Admin Dashboard Appointmet Management](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Admin%20Appointmenrt%20Management.png)
+
+- **Admin Dashboard Appointmet History Top View** ![Admin Dashboard Appointmet Management top view](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Admin%20Appointment%20history%20top%20view.png)
+
+- **Admin Dashboard Appointmet History Mid View** ![Admin Dashboard Appointmet History Mid View](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Admin%20Appointment%20history%20mid%20view.png)
+
+
+- **Admin Dashboard After Completion of appointments** ![Admin Dashboard after Completion of appointments](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Admin%20dashboard%20after%20completion.png)
+
+- **Patient Appointment History** ![Patient Appointment History](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/patient%20appointment%20history.png)
