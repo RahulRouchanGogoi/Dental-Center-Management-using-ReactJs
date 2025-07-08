@@ -83,6 +83,31 @@ Once logged in, admins can:
 - 🌐 **Vercel** – Used for hosting the frontend application
 
 
+## Issues
+
+* App is partially responsive on mobile
+
+* No backend – data lost on clear
+## Technical Decisions
+
+* Used localStorage instead of backend
+
+* React Router for navigation
+
+* Admin access based on @admin.com domain
+## ## 🧾 Setup Instructions
+
+# 1. Clone the repository
+git clone https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs.git
+
+# 2. Navigate to the project folder
+cd Dental-center-management
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
 ## Explore the Website
 
 
@@ -91,8 +116,7 @@ Once logged in, admins can:
 [Click to launch](https://dental-center-management-using-reac.vercel.app/)
 
 
-
-## 📸 Screenshots
+[![linkedin](https://www.linkedin.com/in/rahul-rouchan-gogoi-04072001r)## 📸 Screenshot
 
 * Home Page
 - **Top Section** ![Home Top view](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Top%20Image.png)
