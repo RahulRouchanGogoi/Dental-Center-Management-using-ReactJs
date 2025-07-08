@@ -95,7 +95,7 @@ Once logged in, admins can:
 * React Router for navigation
 
 * Admin access based on @admin.com domain
-## ## 🧾 Setup Instructions
+## 🧾 Setup Instructions
 
 # 1. Clone the repository
 git clone https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs.git
@@ -116,7 +116,6 @@ npm run dev
 [Click to launch](https://dental-center-management-using-reac.vercel.app/)
 
 
-[![linkedin](https://www.linkedin.com/in/rahul-rouchan-gogoi-04072001r)## 📸 Screenshot
 
 * Home Page
 - **Top Section** ![Home Top view](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Home%20Top%20Image.png)
