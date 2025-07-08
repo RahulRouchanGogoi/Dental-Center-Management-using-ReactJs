@@ -26,7 +26,7 @@ Once logged in, admins can:
 * Add new patients and update their details.
 * Upload PDFs (e.g., prescriptions, reports) to patient records.
 
-➡️ **For more details, refer to the [User Manual (PDF)](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Document.pdf)**  
+➡️ **For more details, refer to the [Workflow (PDF)](https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs/blob/main/Readme%20Images/Document.pdf)**  
 
 ## 🚀 Features
 
