@@ -65,8 +65,10 @@ Once logged in, admins can:
 
 * 🎨 Clean and Minimal UI/UX for ease of use.
 
-* 📱 Partially Responsive — optimized for desktop; some views may require improvement on smaller mobile screens.## 🛠️ Tech Stack
+* 📱 Partially Responsive — optimized for desktop; some views may require improvement on smaller mobile screens.
 
+  
+## 🛠️ Tech Stack
 ### Frontend:
 - ⚛️ **React.js** – Component-based UI development
 - 🧭 **React Router DOM** – Handles client-side routing
@@ -97,16 +99,16 @@ Once logged in, admins can:
 * Admin access based on @admin.com domain
 ## 🧾 Setup Instructions
 
-# 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/RahulRouchanGogoi/Dental-Center-Management-using-ReactJs.git
 
-# 2. Navigate to the project folder
+### 2. Navigate to the project folder
 cd Dental-center-management
 
-# 3. Install dependencies
+### 3. Install dependencies
 npm install
 
-# 4. Run the development server
+### 4. Run the development server
 npm run dev
 ## Explore the Website
 
